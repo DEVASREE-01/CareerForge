@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Server email preview (dev-only generated files)
+.system_email_preview/
+
+# Browser profile data (Antigravity/Edge artifacts)
+.browser-check/
+.onboarding-browser-check/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
